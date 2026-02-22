@@ -98,6 +98,9 @@ Boîte à outils offensive et défensive de cybersécurité : scanners de vulné
 
 ## Stack
 
+[![Stack](https://skillicons.dev/icons?i=python,php,ts,flask,docker,linux,raspberrypi,bash,git&theme=dark)](https://skillicons.dev)
+
+
 - **Python** pour la majorité des outils (scanners, OSINT, réseau, analyse)
 - **Tree-sitter** pour l'analyse statique de code PHP
 - **Scapy** pour la manipulation de paquets réseau bas niveau
