@@ -1,6 +1,6 @@
 # venantvr.security
 
-Outils offensifs et defensifs de cybersecurite : scanners de vulnerabilites, reconnaissance reseau, analyse de code, recherche en securite.
+Outils offensifs et défensifs de cybersécurité : scanners de vulnérabilités, reconnaissance réseau, analyse de code, recherche en sécurité.
 
 ## Repos
 
@@ -8,36 +8,36 @@ Outils offensifs et defensifs de cybersecurite : scanners de vulnerabilites, rec
 
 | Repo | Stack | Description |
 |------|-------|-------------|
-| `Python.PHP.Sec.Scan` | Python | Scanner de securite PHP par analyse statique (taint tracking, tree-sitter, 16 types de vulns) |
-| `TypeScript.PHP.Sec.Scan` | TypeScript | Scanner de securite PHP (version TypeScript) |
-| `Python.Sqli.Detection` | Python | Detection d'injections SQL |
-| `Python.Har.Scanner` | Python | Analyseur de fichiers HAR pour la securite |
-| `Python.HAR.ZAP` | Python | Scanner HAR avec integration OWASP ZAP |
+| `Python.PHP.Sec.Scan` | Python | Scanner de sécurité PHP par analyse statique (taint tracking, tree-sitter, 16 types de vulns) |
+| `TypeScript.PHP.Sec.Scan` | TypeScript | Scanner de sécurité PHP (version TypeScript) |
+| `Python.Sqli.Detection` | Python | Détection d'injections SQL |
+| `Python.Har.Scanner` | Python | Analyseur de fichiers HAR pour la sécurité |
+| `Python.HAR.ZAP` | Python | Scanner HAR avec intégration OWASP ZAP |
 | `Python.QueryStringsFromPhp` | Python | Extraction de query strings depuis du code PHP |
-| `Python.AccessForbiddenFiles` | Python | Scanner de fichiers a acces interdit |
-| `Python.Traversal.Vulnerabilities` | Python | Scanner de vulnerabilites path traversal |
+| `Python.AccessForbiddenFiles` | Python | Scanner de fichiers à accès interdit |
+| `Python.Traversal.Vulnerabilities` | Python | Scanner de vulnérabilités path traversal |
 
-### Reconnaissance et reseau
+### Reconnaissance et réseau
 
 | Repo | Stack | Description |
 |------|-------|-------------|
-| `Python.Dome.SubDomains` | Python | Enumeration de sous-domaines |
-| `Python.Osint.Blackbird` | Python | Outil OSINT base sur Blackbird |
+| `Python.Dome.SubDomains` | Python | Énumération de sous-domaines |
+| `Python.Osint.Blackbird` | Python | Outil OSINT basé sur Blackbird |
 | `Python.Nmap.Batch` | Python | Automatisation de scans Nmap en batch |
-| `Python.Arping` | Python | Scanner reseau ARP ping |
-| `Python.Apache.Logs` | Python | Analyseur de logs Apache orientee securite |
-| `Python.Network.Connections` | Python | Monitoring de connexions reseau |
+| `Python.Arping` | Python | Scanner réseau ARP ping |
+| `Python.Apache.Logs` | Python | Analyseur de logs Apache orientée sécurité |
+| `Python.Network.Connections` | Python | Monitoring de connexions réseau |
 
-### Recherche en securite
+### Recherche en sécurité
 
 | Repo | Stack | Description |
 |------|-------|-------------|
 | `Python.Ransomware` | Python | Recherche et analyse de ransomware |
-| `Python.CSRF.Demo` | HTML | Demonstration de vulnerabilites CSRF |
+| `Python.CSRF.Demo` | HTML | Démonstration de vulnérabilités CSRF |
 | `Python.Session.Hijacking` | Python | Illustration de session hijacking |
 | `Python.CORS.Handler` | Python | Tests de configurations CORS |
-| `Python.Network.Pivot` | Python | Outils de pivot reseau |
-| `Python.Usb.Test` | Python | Outils de test de securite USB |
+| `Python.Network.Pivot` | Python | Outils de pivot réseau |
+| `Python.Usb.Test` | Python | Outils de test de sécurité USB |
 | `Python.Tor.Proxy` | Python | Outils TOR |
 | `Javascript.TOR.Workflow` | JavaScript | Automatisation de workflows TOR |
 
@@ -57,8 +57,8 @@ Outils offensifs et defensifs de cybersecurite : scanners de vulnerabilites, rec
 
 ## Stack
 
-- **Python** pour la majorite des outils (scanners, OSINT, reseau)
-- **C** pour le hardware embarque (Raspberry Pi)
+- **Python** pour la majorité des outils (scanners, OSINT, réseau)
+- **C** pour le hardware embarqué (Raspberry Pi)
 - **Tree-sitter** pour l'analyse statique de code PHP
 - **OWASP ZAP** pour l'analyse dynamique
-- **Nmap** pour la reconnaissance reseau
+- **Nmap** pour la reconnaissance réseau
