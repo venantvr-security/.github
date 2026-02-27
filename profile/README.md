@@ -52,6 +52,9 @@ Boîte à outils offensive et défensive de cybersécurité : scanners de vulné
 [![Python.Network.Connections](https://img.shields.io/badge/Python.Network.Connections-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Python.Network.Connections) <sup>public</sup>
 *Python / Scapy* — Surveillance réseau en temps réel : détection continue des machines connectées via requêtes ARP, affichage coloré des nouvelles connexions (IP + MAC).
 
+[![Rust.Nmap.Network](https://img.shields.io/badge/Rust.Nmap.Network-000000?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/venantvr-security/Rust.Nmap.Network) <sup>public</sup>
+*Rust / Axum / Docker* — Laboratoire académique de test d'évasion IDS : orchestration multi-IDS (Snort, Suricata, Zeek), 5 niveaux de sécurité configurables, dashboard web Rust/Axum, cookbook d'attaques Nmap/Scapy, édition de règles en temps réel.
+
 ### Recherche et démonstrations de sécurité
 
 [![Python.Ransomware](https://img.shields.io/badge/Python.Ransomware-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Python.Ransomware) <sup>public</sup>
@@ -98,10 +101,11 @@ Boîte à outils offensive et défensive de cybersécurité : scanners de vulné
 
 ## Stack
 
-[![Stack](https://skillicons.dev/icons?i=python,php,ts,flask,docker,linux,raspberrypi,bash,git&theme=dark)](https://skillicons.dev)
+[![Stack](https://skillicons.dev/icons?i=python,rust,php,ts,flask,docker,linux,raspberrypi,bash,git&theme=dark)](https://skillicons.dev)
 
 
 - **Python** pour la majorité des outils (scanners, OSINT, réseau, analyse)
+- **Rust/Axum** pour les dashboards web haute performance
 - **Tree-sitter** pour l'analyse statique de code PHP
 - **Scapy** pour la manipulation de paquets réseau bas niveau
 - **Flask** pour les dashboards web temps réel
