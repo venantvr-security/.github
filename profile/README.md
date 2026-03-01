@@ -55,6 +55,12 @@ Boîte à outils offensive et défensive de cybersécurité : scanners de vulné
 [![Rust.Nmap.Network](https://img.shields.io/badge/Rust.Nmap.Network-CE422B?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/venantvr-security/Rust.Nmap.Network) <sup>public</sup>
 *Rust / Axum / Docker* — Laboratoire académique de test d'évasion IDS : orchestration multi-IDS (Snort, Suricata, Zeek), 5 niveaux de sécurité configurables, dashboard web Rust/Axum, cookbook d'attaques Nmap/Scapy, édition de règles en temps réel.
 
+[![Nmap.Strategies](https://img.shields.io/badge/Nmap.Strategies-2C2D72?style=for-the-badge&logo=lua&logoColor=white)](https://github.com/venantvr-security/Nmap.Strategies) <sup>public</sup>
+*Lua / NSE* — Collection de scripts Nmap NSE pour tests IDS : reconnaissance, évasion (fragmentation, timing, decoys), bruteforce, fuzzing, DoS. Chaque script documenté avec diagrammes Mermaid et flags de risque.
+
+[![Scapy.Strategies](https://img.shields.io/badge/Scapy.Strategies-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Scapy.Strategies) <sup>public</sup>
+*Python / Scapy* — Scripts de manipulation de paquets IP pour évasion IDS : fragmentation (overlapping, tiny), flags TCP, timing, tunneling ICMP, canaux cachés (ISN, IP ID, DNS). Documentation Mermaid.
+
 ### Recherche et démonstrations de sécurité
 
 [![Python.Ransomware](https://img.shields.io/badge/Python.Ransomware-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Python.Ransomware) <sup>public</sup>
@@ -101,11 +107,12 @@ Boîte à outils offensive et défensive de cybersécurité : scanners de vulné
 
 ## Stack
 
-[![Stack](https://skillicons.dev/icons?i=python,rust,php,ts,flask,docker,linux,raspberrypi,bash,git&theme=dark)](https://skillicons.dev)
+[![Stack](https://skillicons.dev/icons?i=python,rust,lua,php,ts,flask,docker,linux,raspberrypi,bash,git&theme=dark)](https://skillicons.dev)
 
 
 - **Python** pour la majorité des outils (scanners, OSINT, réseau, analyse)
 - **Rust/Axum** pour les dashboards web haute performance
+- **Lua/NSE** pour les scripts Nmap d'évasion IDS
 - **Tree-sitter** pour l'analyse statique de code PHP
 - **Scapy** pour la manipulation de paquets réseau bas niveau
 - **Flask** pour les dashboards web temps réel
