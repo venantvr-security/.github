@@ -9,7 +9,7 @@ Boîte à outils offensive et défensive de cybersécurité : scanners de vulné
 [![Python.PHP.Sec.Scan](https://img.shields.io/badge/Python.PHP.Sec.Scan-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Python.PHP.Sec.Scan) <sup>public</sup>
 *Python / tree-sitter* — Scanner de sécurité PHP par analyse statique : taint tracking forward, AST tree-sitter, 16 types de vulnérabilités (SQLi, XSS, RCE, SSRF...), rapports SARIF/HTML/terminal, 89 tests.
 
-[![TypeScript.PHP.Sec.Scan](https://img.shields.io/badge/TypeScript.PHP.Sec.Scan-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/venantvr-security/TypeScript.PHP.Sec.Scan) <sup>public</sup>
+[![typescript.PHP.Sec.Scan](https://img.shields.io/badge/typescript.PHP.Sec.Scan-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/venantvr-security/typescript.PHP.Sec.Scan) <sup>public</sup>
 *TypeScript / VS Code API* — Extension VS Code de détection de vulnérabilités PHP : taint tracking intégré à l'éditeur, diagnostics en temps réel, quick fixes, configuration via rules.yaml.
 
 [![Python.Sqli.Detection](https://img.shields.io/badge/Python.Sqli.Detection-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Python.Sqli.Detection) <sup>privé</sup>
@@ -20,7 +20,7 @@ Boîte à outils offensive et défensive de cybersécurité : scanners de vulné
 
 ### Analyse de trafic et fichiers
 
-[![Python.Har.Scanner](https://img.shields.io/badge/Python.Har.Scanner-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Python.Har.Scanner) <sup>privé</sup>
+[![Python.HAR.Scanner](https://img.shields.io/badge/Python.HAR.Scanner-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Python.HAR.Scanner) <sup>privé</sup>
 *Python / haralyzer* — Analyseur de fichiers HAR (HTTP Archive) : parsing du trafic capturé, extraction de métriques de performance, filtrage par domaine.
 
 [![Python.HAR.ZAP](https://img.shields.io/badge/Python.HAR.ZAP-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Python.HAR.ZAP) <sup>public</sup>
@@ -102,7 +102,7 @@ Boîte à outils offensive et défensive de cybersécurité : scanners de vulné
 
 ### Divers
 
-[![Php.WordPress.Cypher](https://img.shields.io/badge/Php.WordPress.Cypher-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://github.com/venantvr-security/Php.WordPress.Cypher) <sup>privé</sup>
+[![PHP.WordPress.Cypher](https://img.shields.io/badge/PHP.WordPress.Cypher-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://github.com/venantvr-security/PHP.WordPress.Cypher) <sup>privé</sup>
 *PHP / OpenSSL* — Chiffrement de paramètres QueryString dans WordPress en AES-256-CBC via OpenSSL, masquage de paramètres sensibles dans les URLs.
 
 ## Stack
