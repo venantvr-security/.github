@@ -83,6 +83,9 @@ Boîte à outils offensive et défensive de cybersécurité : scanners de vulné
 
 ### Anonymisation et TOR
 
+[![Tor.Web.Capture](https://img.shields.io/badge/Tor.Web.Capture-CE422B?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/venantvr-security/Tor.Web.Capture) <sup>public</sup>
+*Rust / Axum / Arti* — Capture de pages web via TOR intégré (Arti) : screenshots et HTML via Chrome headless, user-agents IoT (Shodan, Censys, Nmap...), upload Google Drive, planification cron, interface HTMX.
+
 [![Python.Tor.Proxy](https://img.shields.io/badge/Python.Tor.Proxy-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/venantvr-security/Python.Tor.Proxy) <sup>privé</sup>
 *Python / GTK / Stem* — Proxy TOR avec interface système (system tray GTK) : rotation automatique d'IP via Stem, règles iptables pour forcer le trafic Tor, vérification d'anonymat.
 
